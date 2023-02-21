@@ -31,7 +31,7 @@
                   <q-item-section>
                     <q-item-label class="text-h6 row justify-between">
                       <div class="">
-                        {{ item.formattedSum + " so'm" }}
+                        {{ item.formattedSum + "$" }}
                       </div>
                       <div>
                         {{ moment(item.date).format("DD.MM.YYYY") }}
@@ -59,7 +59,7 @@
                   <q-item-section>
                     <q-item-label class="text-h6 row justify-between">
                       <div class="text-red">
-                        {{ "-" + item.formattedSum + " so'm" }}
+                        {{ "-" + item.formattedSum + "$" }}
                       </div>
                       <div>
                         {{ moment(item.date).format("DD.MM.YYYY") }}

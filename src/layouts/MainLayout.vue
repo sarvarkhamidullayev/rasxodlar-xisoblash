@@ -84,16 +84,16 @@
         <q-card-section class="q-pt-none">
           <div class="row justify-between">
             <div>Yuborilgan pullar</div>
-            <div>{{ totalInputTransactions + " so'm" }}</div>
+            <div>{{ totalInputTransactions + "$" }}</div>
           </div>
           <div class="row row justify-between">
             <div>Xarajatlar</div>
-            <div>{{ "-" + totalOutputTransactions + " so'm" }}</div>
+            <div>{{ "-" + totalOutputTransactions + "$" }}</div>
           </div>
           <div class="row row justify-between">
             <div>Qolgan summa</div>
             <div>
-              {{ totalInputTransactions - totalOutputTransactions + " so'm" }}
+              {{ totalInputTransactions - totalOutputTransactions + "$" }}
             </div>
           </div>
         </q-card-section>
