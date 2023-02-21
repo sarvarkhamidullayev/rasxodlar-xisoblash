@@ -1,0 +1,16 @@
+// app global css in SCSS form
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  font-family: Allegiant;
+  font-size: 30px;
+}
+@font-face {
+  font-family: "ALLEGIANT";
+  font-style: normal;
+  font-weight: 400;
+  src: local("ALLEGIANT"), url("../fonts/Allegiant-Regular.woff") format("woff");
+}
